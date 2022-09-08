@@ -1,0 +1,249 @@
+/* font-family: 'Libre Franklin', sans-serif; */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.titlee {
+    text-transform: uppercase;
+    font-family:  'Libre Franklin', sans-serif;
+    text-align: center;
+    margin-bottom: 3vh;
+    margin-top: 30px;
+}
+
+.dot {
+    color: hsl(223, 87%, 63%);
+}
+
+.launch {
+    font-family:  'Libre Franklin', sans-serif;
+    font-weight:300 ;
+    color:hsl(0, 0%, 59%);
+    text-align: center;
+    font-size: 3rem;
+}
+
+.launch span {
+    color:hsl(209, 33%, 12%);
+    font-weight: 700;
+
+}
+
+.sub {
+    text-align: center;
+    color: hsl(209, 33%, 12%);
+    font-family:  'Libre Franklin', sans-serif;
+    font-weight: 300;
+    margin-top:1vh;
+}
+
+.notAndEmail {
+    display: flex;
+    font-family:  'Libre Franklin', sans-serif;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.email {
+    padding-top: 9px;
+    height: 70px;
+    padding-left: 3.5vw;
+    width:29.166vw;
+    border: 1px solid  #cdd3e3;
+    border-radius: 3000px;
+    
+    
+    
+}
+
+.emailInput {
+    
+    border: none;
+    background: transparent;
+    outline: 0;
+    width: 100%;
+    height: 100%;
+    font-size:20px;
+}
+
+::placeholder {
+    color:#cdd3e3;
+    
+    
+}
+
+.valid {
+    color:hsl(354, 100%, 66%);
+    font-style: italic;
+    font-family:  'Libre Franklin', sans-serif;
+    margin-top:10px;
+    display:none;
+    
+}
+
+.not {
+    background-color:hsl(223, 87%, 63%) ;
+    color:white;
+    width:13.888vw;
+    border-radius: 300px;
+    margin-left: 2vw;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 23px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.not:hover {
+    background-color: #7195f5;
+    box-shadow: 0 3px 10px 0.5px #7195f5;
+}
+.pic {
+    width: 50vw;
+    margin-left: 25vw;
+}
+
+.pic img {
+    width:100%;
+
+}
+
+
+.soc {
+    
+    display: flex;
+    color: hsl(223, 87%, 63%);
+    padding-left: 44vw;
+
+    
+}
+
+.soc >* {
+    width: 30px;
+    height: 30px;
+    margin-right: 3%;
+    border: 1px solid hsl(223, 87%, 63%);
+    border-radius: 50%;
+
+    
+}
+
+.soc >*:hover i {
+    color:white;
+    cursor: pointer;
+}
+
+
+
+.soc > *:hover {
+    background-color:hsl(223, 87%, 63%);
+}
+
+.fa-facebook-f {
+    padding-left: 8.4px;
+    padding-top: 5px;
+}
+
+.fa-twitter {
+    padding-left: 6px;
+    padding-top: 5px;
+}
+
+.fa-instagram {
+    padding-left: 7px;
+    padding-top: 6px;
+}
+
+.cpRight {
+    text-align: center;
+    color:hsl(0, 0%, 59%);
+}
+
+
+
+@media only screen and (max-width: 612px) {
+    .launch {
+        font-size: 2rem;
+    }
+
+    h1 {
+        font-size: 1.333em;
+    }
+
+    h3 {
+        font-size: 0.78039em;
+    }
+    
+}
+
+@media only screen and (max-width: 372px) {
+    .launch {
+        font-size: 1.4rem;
+    }
+
+    h1 {
+        font-size: 0.9332em;
+    }
+
+    h3 {
+        font-size: 0.545922em;
+    }
+    
+}
+
+@media only screen and (max-width: 847px) {
+    .email {
+        width:47.166vw;
+    }
+    .not {
+        width: 21.887999999999998vw;
+    }
+    .pic {
+        width:80vw;
+        margin-left: 10vw;
+    }
+}
+
+@media only screen and (max-width: 499px) {
+   .notAndEmail {
+        display: initial;
+        
+   }
+
+   .email {
+        width: 80%;
+        margin-left:10vw;
+        margin-bottom: 15px;
+        height: 46px;
+        margin-top: 30px;
+   }
+
+   .not {
+        width: 80%;
+        margin-left:10vw;
+        height: 46px;
+        padding-top: 12px;
+        margin-bottom: 104px;
+        
+   }
+
+   .pic {
+        width: 89%;
+        margin-left:5vw;
+   }
+
+   .soc {
+        margin-top: 88px;
+        padding-left: 36vw;
+        margin-bottom: 20px;
+   }
+
+   .soc >* {
+        margin-right: 5%;
+   }
+}   
+
